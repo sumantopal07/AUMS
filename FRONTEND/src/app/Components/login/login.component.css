@@ -1,0 +1,72 @@
+.container{
+  background-color:whitesmoke;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+
+   padding: 2rem 2rem;
+}
+.btn1{
+   border: 3px solid rgb(197, 78, 23);
+   background: none;
+   padding: 10px 30px;
+   font-size: 1rem;
+   cursor: pointer;
+   margin-top: 20px;
+   
+}
+.btn1:hover{
+   background-color: rgb(197, 78, 23);
+   color: white;
+}
+.img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+.img img{
+   width: 500px;
+   height: 300px;
+}
+
+.login-container{
+ 
+   display: flex;
+   text-align:left ;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+}
+.welcome {
+   font-size: 3rem;
+ 
+}
+
+.title {
+   font-size: 3rem;
+   
+}
+
+@media  (max-width: 768px) {
+   .container{
+  
+       display: flex;
+       flex-direction: column;
+   
+       padding: 2rem 2rem 2rem 2rem;
+   } 
+   .welcome {
+       font-size: 2.5rem;
+     
+   }
+   
+   .title {
+       font-size: 2.5rem;
+       
+   }
+  
+}

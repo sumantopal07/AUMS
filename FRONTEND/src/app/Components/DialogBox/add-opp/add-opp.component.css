@@ -1,0 +1,16 @@
+.input-div{
+    width: 100%;
+}
+.btn{
+    height: 32px;
+    margin-right: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.mar{
+    margin: 5px;
+}
+

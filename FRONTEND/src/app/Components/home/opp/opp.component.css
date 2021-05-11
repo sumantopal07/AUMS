@@ -1,0 +1,49 @@
+.table-margin {
+  margin: 0px 10px 10px 10px;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+mat-cell > span.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.break {
+  word-break: break-all;
+}
+.mararray {
+  margin-right: 4px;
+}
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.ellipsis.multiline {
+  white-space: normal;
+}
+div.span:hover {
+  overflow: visible;
+}
+mat-footer-row mat-footer-cell {
+  justify-content: center;
+  font-style: italic;
+}
+.search-div {
+  margin: 10px 10px 10px 10px;
+}
+.btn-mar {
+  height: 2.5rem;
+  margin: 10px 0 10px 0;
+}
+.mat-paginator {
+  display: flex;
+  justify-content: left;
+}
