@@ -6,11 +6,13 @@ import { OppComponent } from './Components/home/opp/opp.component';
 import { TrendsComponent } from './Components/home/trends/trends.component';
 import { LoginComponent } from './Components/login/login.component';
 import { GuardGuard } from './Guard/guard.guard';
+import { LoginGuardGuard } from './Guard/login-guard.guard';
 
 const routes: Routes = [
   {
     path: '',
     component: LoginComponent,
+    canActivate : [LoginGuardGuard]
   },
   {
     path: 'home',
