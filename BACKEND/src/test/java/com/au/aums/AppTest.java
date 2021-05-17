@@ -91,7 +91,13 @@ class AppTest {
 	}
 
 }
- 
+//<<<<<<< HEAD
+// 
+//||||||| parent of 69c7f99... test
+//
+//=======
+//                
+//>>>>>>> 69c7f99... test
 //		Conditional Execution 
 //@EnableOnOs(OS.LINUS)
 //@EnableOnJre(JRRE.JAVA_11)
